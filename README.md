@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2800&amp;pause=1100&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=45&amp;lines=Building+backend+APIs;Crafting+full-stack+applications;Connecting+AI+to+real+workflows;Shipping+with+Kubernetes+%26+GitOps" width="640" alt="Building backend APIs, full-stack applications, AI integrations, and Kubernetes/GitOps workflows.">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2800&amp;pause=1100&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=45&amp;lines=Building+backend+APIs;Crafting+full-stack+applications;Connecting+AI+to+real+workflows;Shipping+with+Kubernetes+%26+GitOps"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2800&amp;pause=1100&amp;color=0E7490&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=45&amp;lines=Building+backend+APIs;Crafting+full-stack+applications;Connecting+AI+to+real+workflows;Shipping+with+Kubernetes+%26+GitOps" width="640" alt="Building backend APIs, full-stack applications, AI integrations, and Kubernetes/GitOps workflows."></picture>
 </p>
 
 <p align="center"><strong>Full-stack Engineer · Backend · AI Integrations · Cloud</strong></p>
