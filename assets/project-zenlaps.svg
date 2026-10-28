@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260" role="img" aria-label="ZenLaps. An e-commerce application with catalog, cart, orders and payment workflows. Node.js · Express · MongoDB · EJS. Razorpay · Session authentication.">
+<title>ZenLaps. An e-commerce application with catalog, cart, orders and payment workflows. Node.js · Express · MongoDB · EJS. Razorpay · Session authentication.</title><defs><linearGradient id="accent" x2="1" y2="1"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"><rect x="1" y="1" width="718" height="258" rx="18" fill="#161B22" stroke="#30363D"/>
+<path d="M20 1H700" stroke="#A78BFA" stroke-width="2"/>
+<text x="28" y="35" fill="#A78BFA" font-size="15" font-weight="600" >COMMERCE / BACKEND</text><text x="658" y="40" fill="#9DA7B3" font-size="25" font-weight="600" >02</text>
+<text x="28" y="82" fill="#E6EDF3" font-size="34" font-weight="700" >ZenLaps</text>
+<text x="28" y="124" fill="#E6EDF3" font-size="23" font-weight="400" >An e-commerce application with catalog,</text><text x="28" y="154" fill="#E6EDF3" font-size="23" font-weight="400" >cart, orders and payment workflows.</text>
+<path d="M28 177H692" stroke="#30363D"/>
+<text x="28" y="208" fill="#A78BFA" font-size="21" font-weight="400" >Node.js · Express · MongoDB · EJS</text><text x="28" y="238" fill="#9DA7B3" font-size="20" font-weight="400" >Razorpay · Session authentication</text></g></svg>

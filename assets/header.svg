@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-label="Muhammadali Jawhar — Full-stack Engineer. Backend, AI Integrations and Cloud.">
+<title>Muhammadali Jawhar — Full-stack Engineer. Backend, AI Integrations and Cloud.</title><defs><linearGradient id="accent" x2="1" y2="1"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"><rect width="840" height="300" rx="22" fill="#0D1117"/>
+<rect x="1" y="1" width="838" height="298" rx="21" fill="none" stroke="#30363D"/>
+<path d="M610 0H840V300H710L610 200Z" fill="#161B22"/>
+<g fill="none" stroke="url(#accent)" opacity=".55"><path d="M625 65L685 30L745 65V135L685 170L625 135Z"/><path d="M685 100L745 65L805 100V170L745 205L685 170Z"/><path d="M625 135L685 100L745 135V205L685 240L625 205Z"/></g>
+<circle cx="745" cy="65" r="5" fill="#22D3EE"/><circle cx="685" cy="240" r="5" fill="#A78BFA"/>
+<rect x="36" y="35" width="5" height="21" rx="2" fill="#22D3EE"/>
+<text x="53" y="53" fill="#9DA7B3" font-size="16" font-weight="600" >JAUHAR4563 / ENGINEERING</text>
+<text x="36" y="124" fill="#E6EDF3" font-size="48" font-weight="700" >Muhammadali</text>
+<text x="36" y="178" fill="#E6EDF3" font-size="48" font-weight="700" >Jawhar</text>
+<rect x="36" y="202" width="100" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="36" y="241" fill="#22D3EE" font-size="26" font-weight="600" >Full-stack Engineer</text>
+<text x="36" y="274" fill="#9DA7B3" font-size="21" font-weight="400" >Backend · AI Integrations · Cloud</text></g></svg>
