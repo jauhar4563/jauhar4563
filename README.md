@@ -18,15 +18,15 @@ I build full-stack applications, backend APIs, and AI-powered integrations with 
 
 ## 01 / Selected builds
 
-<a href="https://github.com/jauhar4563/SHUFFLE-Frontend"><img src="assets/project-shuffle.svg" width="720" alt="SHUFFLE — social application with chat, video calls and payments. React, TypeScript, Express, MongoDB, Socket.IO, AWS S3 and Stripe."></a>
+<a href="https://github.com/jauhar4563/SHUFFLE-Frontend"><picture><source media="(max-width: 600px)" srcset="assets/project-shuffle-mobile.svg"><img src="assets/project-shuffle.svg" width="720" alt="SHUFFLE — social application with chat, video calls and payments. React, TypeScript, Express, MongoDB, Socket.IO, AWS S3 and Stripe."></picture></a>
 
 **SHUFFLE** · [Frontend](https://github.com/jauhar4563/SHUFFLE-Frontend) · [Backend](https://github.com/jauhar4563/SHUFFLE-Backend)
 
-<a href="https://github.com/jauhar4563/ZenLaps"><img src="assets/project-zenlaps.svg" width="720" alt="ZenLaps — e-commerce with catalog, cart, orders and payments. Node.js, Express, MongoDB, EJS and Razorpay."></a>
+<a href="https://github.com/jauhar4563/ZenLaps"><picture><source media="(max-width: 600px)" srcset="assets/project-zenlaps-mobile.svg"><img src="assets/project-zenlaps.svg" width="720" alt="ZenLaps — e-commerce with catalog, cart, orders and payments. Node.js, Express, MongoDB, EJS and Razorpay."></picture></a>
 
 **ZenLaps** · [Explore the repository](https://github.com/jauhar4563/ZenLaps)
 
-<a href="https://github.com/jauhar4563/GitHubApiProject"><img src="assets/project-github-api.svg" width="720" alt="GitHub API Explorer — repository, follower and profile exploration. React, TypeScript, Express, PostgreSQL and Redux Toolkit."></a>
+<a href="https://github.com/jauhar4563/GitHubApiProject"><picture><source media="(max-width: 600px)" srcset="assets/project-github-api-mobile.svg"><img src="assets/project-github-api.svg" width="720" alt="GitHub API Explorer — repository, follower and profile exploration. React, TypeScript, Express, PostgreSQL and Redux Toolkit."></picture></a>
 
 **GitHub API Explorer** · [Explore the repository](https://github.com/jauhar4563/GitHubApiProject)
 
@@ -111,13 +111,13 @@ Technologies I've worked with across personal projects and professional experien
 
 ## 03 / Build. Learn. Repeat.
 
-<img src="assets/generated/contributions.svg" width="720" alt="Contribution total and active days over the displayed 365-day period. Exact figures are listed below.">
+<picture><source media="(max-width: 600px)" srcset="assets/generated/contributions-mobile.svg"><img src="assets/generated/contributions.svg" width="720" alt="Contribution total and active days over the displayed 365-day period. Exact figures are listed below."></picture>
 
-<img src="assets/generated/streak.svg" width="720" alt="Current contribution streak and longest streak within the displayed period. Exact figures are listed below.">
+<picture><source media="(max-width: 600px)" srcset="assets/generated/streak-mobile.svg"><img src="assets/generated/streak.svg" width="720" alt="Current contribution streak and longest streak within the displayed period. Exact figures are listed below."></picture>
 
 <!-- ACTIVITY:START -->
-**1,744 contributions · 222 active days**  
-Current streak: **1 days** · Longest in this window: **12 days**  
+**1,744 contributions · 221 active days**<br>
+Current streak: **1 days** · Longest in this window: **12 days**<br>
 Period: 2025-10-29 to 2026-10-28 (UTC; refreshed daily).
 <!-- ACTIVITY:END -->
 

@@ -1,6 +1,7 @@
 """Build original profile artwork. Run from any directory; no dependencies."""
 from html import escape
 from pathlib import Path
+from textwrap import wrap
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
@@ -66,6 +67,17 @@ def build():
 <path d="M28 177H692" stroke="#30363D"/>
 {text(28,208,stack1,21,accent)}{text(28,238,stack2,20,MUTED)}'''
         write(f"project-{name}.svg", svg(720, 260, f"{title}. {line1} {line2} {stack1}. {stack2}.", body))
+        description = wrap(line1 + " " + line2, width=33)
+        stack = wrap(stack1 + " · " + stack2, width=34)
+        divider = 108 + len(description) * 28
+        height = divider + 30 + len(stack) * 25
+        mobile = f'<rect x="1" y="1" width="418" height="{height-2}" rx="18" fill="{PANEL}" stroke="#30363D"/>'
+        mobile += f'<path d="M20 1H400" stroke="{accent}" stroke-width="2"/>'
+        mobile += text(24, 32, label, 14, accent, 600) + text(24, 76, title, 30, TEXT, 700)
+        mobile += ''.join(text(24, 114 + i*28, line, 21) for i, line in enumerate(description))
+        mobile += f'<path d="M24 {divider}H396" stroke="#30363D"/>'
+        mobile += ''.join(text(24, divider+30+i*25, line, 18, accent) for i, line in enumerate(stack))
+        write(f"project-{name}-mobile.svg", svg(420, height, title + ". " + line1 + " " + line2, mobile))
 
     for _, accent, labels in GROUPS:
         for label in labels:
