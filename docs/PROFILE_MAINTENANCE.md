@@ -10,8 +10,9 @@ allows, one column on phones. Avoid tables or percentage widths that shrink text
 
 - Edit the introduction, project links, and experience text in `README.md`.
 - Edit the original artwork and badge groups in `scripts/design.py`, then run
-  `python scripts/design.py`. Keep README badge references in sync when adding a
-  technology. Listing a technology describes experience, not a proficiency score.
+  `python scripts/design.py`. Keep README badge references and the `ICONS` mapping in sync when adding a
+  technology. Icon sources and licenses are recorded in `assets/icons/`; badges
+  embed the vendored SVGs, so rendering needs no external icon service. Listing a technology describes experience, not a proficiency score.
 - Project summaries describe public personal repositories. Do not add company,
   customer, or private repository details.
 

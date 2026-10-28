@@ -37,64 +37,64 @@ Technologies I've worked with across personal projects and professional experien
 ### Languages
 
 <p>
-  <img src="assets/badges/python.svg" height="32" alt="Python">
-  <img src="assets/badges/typescript.svg" height="32" alt="TypeScript">
-  <img src="assets/badges/javascript.svg" height="32" alt="JavaScript">
-  <img src="assets/badges/sql.svg" height="32" alt="SQL">
-  <img src="assets/badges/bash.svg" height="32" alt="Bash">
-  <img src="assets/badges/html-css.svg" height="32" alt="HTML / CSS">
+  <img src="assets/badges/icons/python.svg" height="32" alt="Python">
+  <img src="assets/badges/icons/typescript.svg" height="32" alt="TypeScript">
+  <img src="assets/badges/icons/javascript.svg" height="32" alt="JavaScript">
+  <img src="assets/badges/icons/sql.svg" height="32" alt="SQL">
+  <img src="assets/badges/icons/bash.svg" height="32" alt="Bash">
+  <img src="assets/badges/icons/html-css.svg" height="32" alt="HTML / CSS">
 </p>
 
 ### Frontend
 
 <p>
-  <img src="assets/badges/react.svg" height="32" alt="React">
-  <img src="assets/badges/nextjs.svg" height="32" alt="Next.js">
-  <img src="assets/badges/redux-toolkit.svg" height="32" alt="Redux Toolkit">
-  <img src="assets/badges/tailwind-css.svg" height="32" alt="Tailwind CSS">
-  <img src="assets/badges/vite.svg" height="32" alt="Vite">
+  <img src="assets/badges/icons/react.svg" height="32" alt="React">
+  <img src="assets/badges/icons/nextjs.svg" height="32" alt="Next.js">
+  <img src="assets/badges/icons/redux-toolkit.svg" height="32" alt="Redux Toolkit">
+  <img src="assets/badges/icons/tailwind-css.svg" height="32" alt="Tailwind CSS">
+  <img src="assets/badges/icons/vite.svg" height="32" alt="Vite">
 </p>
 
 ### Backend
 
 <p>
-  <img src="assets/badges/fastapi.svg" height="32" alt="FastAPI">
-  <img src="assets/badges/nestjs.svg" height="32" alt="NestJS">
-  <img src="assets/badges/nodejs.svg" height="32" alt="Node.js">
-  <img src="assets/badges/express.svg" height="32" alt="Express">
-  <img src="assets/badges/pydantic.svg" height="32" alt="Pydantic">
+  <img src="assets/badges/icons/fastapi.svg" height="32" alt="FastAPI">
+  <img src="assets/badges/icons/nestjs.svg" height="32" alt="NestJS">
+  <img src="assets/badges/icons/nodejs.svg" height="32" alt="Node.js">
+  <img src="assets/badges/icons/express.svg" height="32" alt="Express">
+  <img src="assets/badges/icons/pydantic.svg" height="32" alt="Pydantic">
 </p>
 
 ### Data & messaging
 
 <p>
-  <img src="assets/badges/postgresql.svg" height="32" alt="PostgreSQL">
-  <img src="assets/badges/sql-server.svg" height="32" alt="SQL Server">
-  <img src="assets/badges/mongodb.svg" height="32" alt="MongoDB">
-  <img src="assets/badges/redis.svg" height="32" alt="Redis">
-  <img src="assets/badges/kafka.svg" height="32" alt="Kafka">
+  <img src="assets/badges/icons/postgresql.svg" height="32" alt="PostgreSQL">
+  <img src="assets/badges/icons/sql-server.svg" height="32" alt="SQL Server">
+  <img src="assets/badges/icons/mongodb.svg" height="32" alt="MongoDB">
+  <img src="assets/badges/icons/redis.svg" height="32" alt="Redis">
+  <img src="assets/badges/icons/kafka.svg" height="32" alt="Kafka">
 </p>
 
 ### AI integrations & data
 
 <p>
-  <img src="assets/badges/openai-api.svg" height="32" alt="OpenAI API">
-  <img src="assets/badges/azure-openai.svg" height="32" alt="Azure OpenAI">
-  <img src="assets/badges/mlflow.svg" height="32" alt="MLflow">
-  <img src="assets/badges/pandas.svg" height="32" alt="Pandas">
-  <img src="assets/badges/numpy.svg" height="32" alt="NumPy">
+  <img src="assets/badges/icons/openai-api.svg" height="32" alt="OpenAI API">
+  <img src="assets/badges/icons/azure-openai.svg" height="32" alt="Azure OpenAI">
+  <img src="assets/badges/icons/mlflow.svg" height="32" alt="MLflow">
+  <img src="assets/badges/icons/pandas.svg" height="32" alt="Pandas">
+  <img src="assets/badges/icons/numpy.svg" height="32" alt="NumPy">
 </p>
 
 ### Cloud & platform
 
 <p>
-  <img src="assets/badges/kubernetes.svg" height="32" alt="Kubernetes">
-  <img src="assets/badges/docker.svg" height="32" alt="Docker">
-  <img src="assets/badges/helm.svg" height="32" alt="Helm">
-  <img src="assets/badges/argo-cd.svg" height="32" alt="Argo CD">
-  <img src="assets/badges/azure.svg" height="32" alt="Azure">
-  <img src="assets/badges/azure-devops.svg" height="32" alt="Azure DevOps">
-  <img src="assets/badges/aws-s3.svg" height="32" alt="AWS S3">
+  <img src="assets/badges/icons/kubernetes.svg" height="32" alt="Kubernetes">
+  <img src="assets/badges/icons/docker.svg" height="32" alt="Docker">
+  <img src="assets/badges/icons/helm.svg" height="32" alt="Helm">
+  <img src="assets/badges/icons/argo-cd.svg" height="32" alt="Argo CD">
+  <img src="assets/badges/icons/azure.svg" height="32" alt="Azure">
+  <img src="assets/badges/icons/azure-devops.svg" height="32" alt="Azure DevOps">
+  <img src="assets/badges/icons/aws-s3.svg" height="32" alt="AWS S3">
 </p>
 
 <details>
@@ -135,6 +135,6 @@ Counts include anonymized private activity that GitHub makes visible. Streaks us
 <details>
 <summary>Design &amp; widget credits</summary>
 
-Layout inspiration: [DenverCoder1](https://github.com/DenverCoder1). Original banner, project cards, technology badges and activity cards are hosted in this repository. Animation: [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) and [snk](https://github.com/Platane/snk). Profile hits: [Komarev](https://github.com/antonkomarev/github-profile-views-counter), a third-party request counter rather than unique visitors.
+Layout inspiration: [DenverCoder1](https://github.com/DenverCoder1). Original banner, project cards, technology badges and activity cards are hosted in this repository. Animation: [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) and [snk](https://github.com/Platane/snk). Technology icons: [Devicon](https://github.com/devicons/devicon) and [Simple Icons](https://github.com/simple-icons/simple-icons), embedded locally with licenses in `assets/icons/`. Profile hits: [Komarev](https://github.com/antonkomarev/github-profile-views-counter), a third-party request counter rather than unique visitors.
 
 </details>
