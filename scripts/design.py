@@ -76,7 +76,7 @@ def build():
 {text(18,88,description[0],13)}{text(18,108,description[1],13)}
 <path d="M18 129H262" stroke="#30363D"/>
 {text(18,153,stack[0],12,accent)}{text(18,174,stack[1],12,MUTED)}'''
-        write(f"project-{name}.svg", svg(280, 208, f"{title}. {line1} {line2} {stack1}. {stack2}.", body))
+        write(f"project-{name}-compact.svg", svg(280, 208, f"{title}. {line1} {line2} {stack1}. {stack2}.", body))
 
     for _, accent, labels in GROUPS:
         for label in labels:

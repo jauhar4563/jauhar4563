@@ -19,9 +19,9 @@ I build full-stack applications, backend APIs, and AI-powered integrations with 
 ## 01 / Selected builds
 
 <p align="center">
-  <a href="https://github.com/jauhar4563/SHUFFLE-Frontend"><img src="assets/project-shuffle.svg" width="280" alt="SHUFFLE — social app with chat, video calls and payments. React, TypeScript, Express, MongoDB, Socket.IO and AWS S3."></a>
-  <a href="https://github.com/jauhar4563/ZenLaps"><img src="assets/project-zenlaps.svg" width="280" alt="ZenLaps — e-commerce with catalog, cart, orders and payments. Node.js, Express, MongoDB, EJS and Razorpay."></a>
-  <a href="https://github.com/jauhar4563/GitHubApiProject"><img src="assets/project-github-api.svg" width="280" alt="GitHub API Explorer — repository, follower and profile exploration. React, TypeScript, Express, PostgreSQL and Redux Toolkit."></a>
+  <a href="https://github.com/jauhar4563/SHUFFLE-Frontend"><img src="assets/project-shuffle-compact.svg" width="280" alt="SHUFFLE — social app with chat, video calls and payments. React, TypeScript, Express, MongoDB, Socket.IO and AWS S3."></a>
+  <a href="https://github.com/jauhar4563/ZenLaps"><img src="assets/project-zenlaps-compact.svg" width="280" alt="ZenLaps — e-commerce with catalog, cart, orders and payments. Node.js, Express, MongoDB, EJS and Razorpay."></a>
+  <a href="https://github.com/jauhar4563/GitHubApiProject"><img src="assets/project-github-api-compact.svg" width="280" alt="GitHub API Explorer — repository, follower and profile exploration. React, TypeScript, Express, PostgreSQL and Redux Toolkit."></a>
 </p>
 
 <p align="center">
@@ -116,7 +116,7 @@ Technologies I've worked with across personal projects and professional experien
 <picture><source media="(max-width: 600px)" srcset="assets/generated/streak-mobile.svg"><img src="assets/generated/streak.svg" width="720" alt="Current contribution streak and longest streak within the displayed period. Exact figures are listed below."></picture>
 
 <!-- ACTIVITY:START -->
-**1,745 contributions · 222 active days**<br>
+**1,744 contributions · 222 active days**<br>
 Current streak: **1 day** · Longest in this window: **12 days**<br>
 Period: 2025-10-29 to 2026-10-28 (UTC; refreshed daily).
 <!-- ACTIVITY:END -->
