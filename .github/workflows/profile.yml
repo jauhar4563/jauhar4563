@@ -60,6 +60,7 @@ jobs:
             .profile-build/*.svg
             .profile-build/README.md
           if-no-files-found: error
+          include-hidden-files: true
           retention-days: 1
 
   publish:
