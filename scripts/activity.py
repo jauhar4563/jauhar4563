@@ -117,7 +117,8 @@ def build(output, calendar, today):
         (output / name).write_text(content + "\n", encoding="utf-8")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     accessible = (f"\n**{summary['total']:,} contributions · {summary['active_days']} active days**<br>\n"
-                  f"Current streak: **{summary['current']} days** · Longest in this window: **{summary['longest']} days**<br>\n"
+                  f"Current streak: **{summary['current']} {'day' if summary['current'] == 1 else 'days'}** · "
+                  f"Longest in this window: **{summary['longest']} {'day' if summary['longest'] == 1 else 'days'}**<br>\n"
                   f"Period: {summary['start']} to {summary['end']} (UTC; refreshed daily).\n")
     updated, matches = re.subn(r"(?<=<!-- ACTIVITY:START -->).*?(?=<!-- ACTIVITY:END -->)", accessible, readme, flags=re.S)
     if matches != 1:
