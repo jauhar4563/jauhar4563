@@ -117,7 +117,7 @@ Technologies I've worked with across personal projects and professional experien
 
 <!-- ACTIVITY:START -->
 **1,744 contributions · 222 active days**<br>
-Current streak: **1 days** · Longest in this window: **12 days**<br>
+Current streak: **1 day** · Longest in this window: **12 days**<br>
 Period: 2025-10-29 to 2026-10-28 (UTC; refreshed daily).
 <!-- ACTIVITY:END -->
 
