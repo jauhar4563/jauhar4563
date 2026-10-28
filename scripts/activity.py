@@ -74,7 +74,19 @@ def summarize(calendar, today):
             "longest": longest, "start": start.isoformat(), "end": end.isoformat()}
 
 
-def card(title, eyebrow, summary, metrics, note):
+def card(title, eyebrow, summary, metrics, note, mobile=False):
+    if mobile:
+        body = f'<rect x="1" y="1" width="418" height="278" rx="18" fill="{PANEL}" stroke="#30363D"/>'
+        body += '<path d="M20 1H400" stroke="url(#accent)" stroke-width="2"/>'
+        body += text(24,32,eyebrow,14,CYAN,600) + text(24,68,title,23,TEXT,700)
+        body += text(24,99,summary['start']+' — '+summary['end'],18,MUTED)
+        for i, (value, label, color) in enumerate(metrics):
+            x = 24+i*193
+            body += text(x,166,f'{value:,}',40,color,700)
+            body += text(x,197,label.replace(' · days',''),16,TEXT)
+        body += text(24,239,'365 UTC days · Details below',17,MUTED)
+        body += text(24,262,'Daily refresh / Public contribution calendar',14,MUTED)
+        return svg(420,280,title + '. ' + '. '.join(f'{label}: {value}' for value,label,_ in metrics),body)
     body = f'''<rect x="1" y="1" width="718" height="238" rx="18" fill="{PANEL}" stroke="#30363D"/>
 <path d="M20 1H700" stroke="url(#accent)" stroke-width="2"/>
 {text(28,32,eyebrow,14,CYAN,600)}{text(28,68,title,28,TEXT,700)}
@@ -97,11 +109,16 @@ def build(output, calendar, today):
                            [(summary["current"], "Current streak · days", CYAN), (summary["longest"], "Longest in window · days", VIOLET)],
                            "Current streak allows today to be unfinished · Capped to window"),
     }
+    files['contributions-mobile.svg'] = card('Showing up. Building things.', 'GITHUB / CONTRIBUTIONS', summary,
+        [(summary['total'], 'Contributions', CYAN), (summary['active_days'], 'Active days', VIOLET)], '', mobile=True)
+    files['streak-mobile.svg'] = card('Consistency, one day at a time.', 'GITHUB / STREAK', summary,
+        [(summary['current'], 'Current streak · days', CYAN), (summary['longest'], 'Longest in window · days', VIOLET)], '', mobile=True)
     for name, content in files.items():
         (output / name).write_text(content + "\n", encoding="utf-8")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    accessible = (f"\n**{summary['total']:,} contributions · {summary['active_days']} active days**  \n"
-                  f"Current streak: **{summary['current']} days** · Longest in this window: **{summary['longest']} days**  \n"
+    accessible = (f"\n**{summary['total']:,} contributions · {summary['active_days']} active days**<br>\n"
+                  f"Current streak: **{summary['current']} {'day' if summary['current'] == 1 else 'days'}** · "
+                  f"Longest in this window: **{summary['longest']} {'day' if summary['longest'] == 1 else 'days'}**<br>\n"
                   f"Period: {summary['start']} to {summary['end']} (UTC; refreshed daily).\n")
     updated, matches = re.subn(r"(?<=<!-- ACTIVITY:START -->).*?(?=<!-- ACTIVITY:END -->)", accessible, readme, flags=re.S)
     if matches != 1:

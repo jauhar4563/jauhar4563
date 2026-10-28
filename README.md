@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2800&amp;pause=1100&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=45&amp;lines=Building+backend+APIs;Crafting+full-stack+applications;Connecting+AI+to+real+workflows;Shipping+with+Kubernetes+%26+GitOps" width="640" alt="Building backend APIs, full-stack applications, AI integrations, and Kubernetes/GitOps workflows.">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2800&amp;pause=1100&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=45&amp;lines=Building+backend+APIs;Crafting+full-stack+applications;Connecting+AI+to+real+workflows;Shipping+with+Kubernetes+%26+GitOps"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2800&amp;pause=1100&amp;color=0E7490&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=45&amp;lines=Building+backend+APIs;Crafting+full-stack+applications;Connecting+AI+to+real+workflows;Shipping+with+Kubernetes+%26+GitOps" width="640" alt="Building backend APIs, full-stack applications, AI integrations, and Kubernetes/GitOps workflows."></picture>
 </p>
 
 <p align="center"><strong>Full-stack Engineer · Backend · AI Integrations · Cloud</strong></p>
@@ -18,17 +18,17 @@ I build full-stack applications, backend APIs, and AI-powered integrations with 
 
 ## 01 / Selected builds
 
-<a href="https://github.com/jauhar4563/SHUFFLE-Frontend"><img src="assets/project-shuffle.svg" width="720" alt="SHUFFLE — social application with chat, video calls and payments. React, TypeScript, Express, MongoDB, Socket.IO, AWS S3 and Stripe."></a>
+<p align="center">
+  <a href="https://github.com/jauhar4563/SHUFFLE-Frontend"><img src="assets/project-shuffle-compact.svg" width="280" alt="SHUFFLE — social app with chat, video calls and payments. React, TypeScript, Express, MongoDB, Socket.IO and AWS S3."></a>
+  <a href="https://github.com/jauhar4563/ZenLaps"><img src="assets/project-zenlaps-compact.svg" width="280" alt="ZenLaps — e-commerce with catalog, cart, orders and payments. Node.js, Express, MongoDB, EJS and Razorpay."></a>
+  <a href="https://github.com/jauhar4563/GitHubApiProject"><img src="assets/project-github-api-compact.svg" width="280" alt="GitHub API Explorer — repository, follower and profile exploration. React, TypeScript, Express, PostgreSQL and Redux Toolkit."></a>
+</p>
 
-**SHUFFLE** · [Frontend](https://github.com/jauhar4563/SHUFFLE-Frontend) · [Backend](https://github.com/jauhar4563/SHUFFLE-Backend)
-
-<a href="https://github.com/jauhar4563/ZenLaps"><img src="assets/project-zenlaps.svg" width="720" alt="ZenLaps — e-commerce with catalog, cart, orders and payments. Node.js, Express, MongoDB, EJS and Razorpay."></a>
-
-**ZenLaps** · [Explore the repository](https://github.com/jauhar4563/ZenLaps)
-
-<a href="https://github.com/jauhar4563/GitHubApiProject"><img src="assets/project-github-api.svg" width="720" alt="GitHub API Explorer — repository, follower and profile exploration. React, TypeScript, Express, PostgreSQL and Redux Toolkit."></a>
-
-**GitHub API Explorer** · [Explore the repository](https://github.com/jauhar4563/GitHubApiProject)
+<p align="center">
+  SHUFFLE: <a href="https://github.com/jauhar4563/SHUFFLE-Frontend">Frontend</a> / <a href="https://github.com/jauhar4563/SHUFFLE-Backend">Backend</a> &nbsp; · &nbsp;
+  <a href="https://github.com/jauhar4563/ZenLaps">ZenLaps</a> &nbsp; · &nbsp;
+  <a href="https://github.com/jauhar4563/GitHubApiProject">GitHub API Explorer</a>
+</p>
 
 ## 02 / My engineering toolkit
 
@@ -37,64 +37,64 @@ Technologies I've worked with across personal projects and professional experien
 ### Languages
 
 <p>
-  <img src="assets/badges/python.svg" height="32" alt="Python">
-  <img src="assets/badges/typescript.svg" height="32" alt="TypeScript">
-  <img src="assets/badges/javascript.svg" height="32" alt="JavaScript">
-  <img src="assets/badges/sql.svg" height="32" alt="SQL">
-  <img src="assets/badges/bash.svg" height="32" alt="Bash">
-  <img src="assets/badges/html-css.svg" height="32" alt="HTML / CSS">
+  <img src="assets/badges/icons/python.svg" height="32" alt="Python">
+  <img src="assets/badges/icons/typescript.svg" height="32" alt="TypeScript">
+  <img src="assets/badges/icons/javascript.svg" height="32" alt="JavaScript">
+  <img src="assets/badges/icons/sql.svg" height="32" alt="SQL">
+  <img src="assets/badges/icons/bash.svg" height="32" alt="Bash">
+  <img src="assets/badges/icons/html-css.svg" height="32" alt="HTML / CSS">
 </p>
 
 ### Frontend
 
 <p>
-  <img src="assets/badges/react.svg" height="32" alt="React">
-  <img src="assets/badges/nextjs.svg" height="32" alt="Next.js">
-  <img src="assets/badges/redux-toolkit.svg" height="32" alt="Redux Toolkit">
-  <img src="assets/badges/tailwind-css.svg" height="32" alt="Tailwind CSS">
-  <img src="assets/badges/vite.svg" height="32" alt="Vite">
+  <img src="assets/badges/icons/react.svg" height="32" alt="React">
+  <img src="assets/badges/icons/nextjs.svg" height="32" alt="Next.js">
+  <img src="assets/badges/icons/redux-toolkit.svg" height="32" alt="Redux Toolkit">
+  <img src="assets/badges/icons/tailwind-css.svg" height="32" alt="Tailwind CSS">
+  <img src="assets/badges/icons/vite.svg" height="32" alt="Vite">
 </p>
 
 ### Backend
 
 <p>
-  <img src="assets/badges/fastapi.svg" height="32" alt="FastAPI">
-  <img src="assets/badges/nestjs.svg" height="32" alt="NestJS">
-  <img src="assets/badges/nodejs.svg" height="32" alt="Node.js">
-  <img src="assets/badges/express.svg" height="32" alt="Express">
-  <img src="assets/badges/pydantic.svg" height="32" alt="Pydantic">
+  <img src="assets/badges/icons/fastapi.svg" height="32" alt="FastAPI">
+  <img src="assets/badges/icons/nestjs.svg" height="32" alt="NestJS">
+  <img src="assets/badges/icons/nodejs.svg" height="32" alt="Node.js">
+  <img src="assets/badges/icons/express.svg" height="32" alt="Express">
+  <img src="assets/badges/icons/pydantic.svg" height="32" alt="Pydantic">
 </p>
 
 ### Data & messaging
 
 <p>
-  <img src="assets/badges/postgresql.svg" height="32" alt="PostgreSQL">
-  <img src="assets/badges/sql-server.svg" height="32" alt="SQL Server">
-  <img src="assets/badges/mongodb.svg" height="32" alt="MongoDB">
-  <img src="assets/badges/redis.svg" height="32" alt="Redis">
-  <img src="assets/badges/kafka.svg" height="32" alt="Kafka">
+  <img src="assets/badges/icons/postgresql.svg" height="32" alt="PostgreSQL">
+  <img src="assets/badges/icons/sql-server.svg" height="32" alt="SQL Server">
+  <img src="assets/badges/icons/mongodb.svg" height="32" alt="MongoDB">
+  <img src="assets/badges/icons/redis.svg" height="32" alt="Redis">
+  <img src="assets/badges/icons/kafka.svg" height="32" alt="Kafka">
 </p>
 
 ### AI integrations & data
 
 <p>
-  <img src="assets/badges/openai-api.svg" height="32" alt="OpenAI API">
-  <img src="assets/badges/azure-openai.svg" height="32" alt="Azure OpenAI">
-  <img src="assets/badges/mlflow.svg" height="32" alt="MLflow">
-  <img src="assets/badges/pandas.svg" height="32" alt="Pandas">
-  <img src="assets/badges/numpy.svg" height="32" alt="NumPy">
+  <img src="assets/badges/icons/openai-api.svg" height="32" alt="OpenAI API">
+  <img src="assets/badges/icons/azure-openai.svg" height="32" alt="Azure OpenAI">
+  <img src="assets/badges/icons/mlflow.svg" height="32" alt="MLflow">
+  <img src="assets/badges/icons/pandas.svg" height="32" alt="Pandas">
+  <img src="assets/badges/icons/numpy.svg" height="32" alt="NumPy">
 </p>
 
 ### Cloud & platform
 
 <p>
-  <img src="assets/badges/kubernetes.svg" height="32" alt="Kubernetes">
-  <img src="assets/badges/docker.svg" height="32" alt="Docker">
-  <img src="assets/badges/helm.svg" height="32" alt="Helm">
-  <img src="assets/badges/argo-cd.svg" height="32" alt="Argo CD">
-  <img src="assets/badges/azure.svg" height="32" alt="Azure">
-  <img src="assets/badges/azure-devops.svg" height="32" alt="Azure DevOps">
-  <img src="assets/badges/aws-s3.svg" height="32" alt="AWS S3">
+  <img src="assets/badges/icons/kubernetes.svg" height="32" alt="Kubernetes">
+  <img src="assets/badges/icons/docker.svg" height="32" alt="Docker">
+  <img src="assets/badges/icons/helm.svg" height="32" alt="Helm">
+  <img src="assets/badges/icons/argo-cd.svg" height="32" alt="Argo CD">
+  <img src="assets/badges/icons/azure.svg" height="32" alt="Azure">
+  <img src="assets/badges/icons/azure-devops.svg" height="32" alt="Azure DevOps">
+  <img src="assets/badges/icons/aws-s3.svg" height="32" alt="AWS S3">
 </p>
 
 <details>
@@ -111,13 +111,13 @@ Technologies I've worked with across personal projects and professional experien
 
 ## 03 / Build. Learn. Repeat.
 
-<img src="assets/generated/contributions.svg" width="720" alt="Contribution total and active days over the displayed 365-day period. Exact figures are listed below.">
+<picture><source media="(max-width: 600px)" srcset="assets/generated/contributions-mobile.svg"><img src="assets/generated/contributions.svg" width="720" alt="Contribution total and active days over the displayed 365-day period. Exact figures are listed below."></picture>
 
-<img src="assets/generated/streak.svg" width="720" alt="Current contribution streak and longest streak within the displayed period. Exact figures are listed below.">
+<picture><source media="(max-width: 600px)" srcset="assets/generated/streak-mobile.svg"><img src="assets/generated/streak.svg" width="720" alt="Current contribution streak and longest streak within the displayed period. Exact figures are listed below."></picture>
 
 <!-- ACTIVITY:START -->
-**1,742 contributions · 220 active days**  
-Current streak: **0 days** · Longest in this window: **12 days**  
+**1,745 contributions · 222 active days**<br>
+Current streak: **1 day** · Longest in this window: **12 days**<br>
 Period: 2025-10-29 to 2026-10-28 (UTC; refreshed daily).
 <!-- ACTIVITY:END -->
 
@@ -135,6 +135,6 @@ Counts include anonymized private activity that GitHub makes visible. Streaks us
 <details>
 <summary>Design &amp; widget credits</summary>
 
-Layout inspiration: [DenverCoder1](https://github.com/DenverCoder1). Original banner, project cards, technology badges and activity cards are hosted in this repository. Animation: [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) and [snk](https://github.com/Platane/snk). Profile hits: [Komarev](https://github.com/antonkomarev/github-profile-views-counter), a third-party request counter rather than unique visitors.
+Layout inspiration: [DenverCoder1](https://github.com/DenverCoder1). Original banner, project cards, technology badges and activity cards are hosted in this repository. Animation: [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) and [snk](https://github.com/Platane/snk). Technology icons: [Devicon](https://github.com/devicons/devicon) and [Simple Icons](https://github.com/simple-icons/simple-icons), embedded locally with licenses in `assets/icons/`. Profile hits: [Komarev](https://github.com/antonkomarev/github-profile-views-counter), a third-party request counter rather than unique visitors.
 
 </details>

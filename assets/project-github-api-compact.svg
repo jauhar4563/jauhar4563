@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="208" viewBox="0 0 280 208" role="img" aria-label="GitHub API Explorer. A GitHub API project for exploring repositories, followers and user profiles. React · TypeScript · Express. PostgreSQL · Redux Toolkit.">
+<title>GitHub API Explorer. A GitHub API project for exploring repositories, followers and user profiles. React · TypeScript · Express. PostgreSQL · Redux Toolkit.</title><defs><linearGradient id="accent" x2="1" y2="1"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"><rect x="1" y="1" width="278" height="190" rx="14" fill="#161B22" stroke="#30363D"/>
+<path d="M16 1H264" stroke="#22D3EE" stroke-width="2"/>
+<text x="18" y="25" fill="#22D3EE" font-size="10" font-weight="600" >APIS / DATA</text><text x="243" y="26" fill="#9DA7B3" font-size="12" font-weight="600" >03</text>
+<text x="18" y="58" fill="#E6EDF3" font-size="20" font-weight="700" >GitHub API Explorer</text>
+<text x="18" y="88" fill="#E6EDF3" font-size="13" font-weight="400" >Explore GitHub repositories,</text><text x="18" y="108" fill="#E6EDF3" font-size="13" font-weight="400" >followers and user profiles.</text>
+<path d="M18 129H262" stroke="#30363D"/>
+<text x="18" y="153" fill="#22D3EE" font-size="12" font-weight="400" >React · TypeScript · Express</text><text x="18" y="174" fill="#9DA7B3" font-size="12" font-weight="400" >PostgreSQL · Redux Toolkit</text></g></svg>

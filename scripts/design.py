@@ -1,6 +1,7 @@
 """Build original profile artwork. Run from any directory; no dependencies."""
 from html import escape
 from pathlib import Path
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
@@ -32,6 +33,41 @@ GROUPS = [
     ("Cloud & platform", VIOLET, ["Kubernetes", "Docker", "Helm", "Argo CD", "Azure", "Azure DevOps", "AWS S3"]),
 ]
 
+ICONS = {
+    "Python": "python", "TypeScript": "typescript", "JavaScript": "javascript",
+    "SQL": "database", "Bash": "bash", "HTML / CSS": "html5",
+    "React": "react", "Next.js": "nextjs", "Redux Toolkit": "redux",
+    "Tailwind CSS": "tailwindcss", "Vite": "vitejs", "FastAPI": "fastapi",
+    "NestJS": "nestjs", "Node.js": "nodejs", "Express": "express",
+    "Pydantic": "pydantic", "PostgreSQL": "postgresql", "SQL Server": "microsoftsqlserver",
+    "MongoDB": "mongodb", "Redis": "redis", "Kafka": "apachekafka",
+    "OpenAI API": "openai", "Azure OpenAI": "azure", "MLflow": "mlflow",
+    "Pandas": "pandas", "NumPy": "numpy", "Kubernetes": "kubernetes",
+    "Docker": "docker", "Helm": "helm", "Argo CD": "argocd",
+    "Azure": "azure", "Azure DevOps": "azuredevops", "AWS S3": "amazonwebservices",
+}
+
+
+def icon_markup(name, x=9, y=6, size=20):
+    if name == "database":
+        return f'''<g transform="translate({x} {y}) scale({size/24})" fill="none" stroke="{CYAN}" stroke-width="1.8">
+<ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 4 18 4 18 0V5M3 12c0 4 18 4 18 0"/></g>'''
+    ET.register_namespace("", "http://www.w3.org/2000/svg")
+    root = ET.parse(ASSETS / "icons" / f"{name}.svg").getroot()
+    root.attrib.update(x=str(x), y=str(y), width=str(size), height=str(size), **{"aria-hidden": "true"})
+    # Monochrome marks need an explicit light fill on this dark badge surface.
+    fill = {"pydantic": "#E92063", "mlflow": CYAN, "openai": TEXT}.get(name)
+    if fill:
+        root.set("fill", fill)
+    if name in ("express", "apachekafka", "helm", "pandas", "amazonwebservices", "bash"):
+        for element in root.iter():
+            for attr in ("fill", "stroke"):
+                if element.get(attr, "").lower() in ("#000", "#000000", "black", "#130f40", "#0f1689", "#150458", "#252f3e", "#293138", "#2d2d2d", "#0f1f38", "#231f20", "#130754"):
+                    element.set(attr, TEXT)
+        if name in ("express", "apachekafka"):
+            root.set("fill", TEXT)
+    return ET.tostring(root, encoding="unicode")
+
 
 def slug(label):
     return label.lower().replace(" / ", "-").replace(" ", "-").replace(".", "")
@@ -58,22 +94,36 @@ def build():
         ("github-api", "03", "GitHub API Explorer", "APIS / DATA", "A GitHub API project for exploring", "repositories, followers and user profiles.", "React · TypeScript · Express", "PostgreSQL · Redux Toolkit", CYAN),
     ]
     for name, number, title, label, line1, line2, stack1, stack2, accent in projects:
-        body = f'''<rect x="1" y="1" width="718" height="258" rx="18" fill="{PANEL}" stroke="#30363D"/>
-<path d="M20 1H700" stroke="{accent}" stroke-width="2"/>
-{text(28,35,label,15,accent,600)}{text(658,40,number,25,MUTED,600)}
-{text(28,82,title,34,TEXT,700)}
-{text(28,124,line1,23)}{text(28,154,line2,23)}
-<path d="M28 177H692" stroke="#30363D"/>
-{text(28,208,stack1,21,accent)}{text(28,238,stack2,20,MUTED)}'''
-        write(f"project-{name}.svg", svg(720, 260, f"{title}. {line1} {line2} {stack1}. {stack2}.", body))
+        details = {
+            "shuffle": (["Social app with chat, video", "calls and payment integrations."],
+                        ["React · TypeScript · Express", "MongoDB · Socket.IO · AWS S3"]),
+            "zenlaps": (["E-commerce with a catalog,", "cart, orders and payments."],
+                        ["Node.js · Express · MongoDB", "EJS · Razorpay"]),
+            "github-api": (["Explore GitHub repositories,", "followers and user profiles."],
+                           ["React · TypeScript · Express", "PostgreSQL · Redux Toolkit"]),
+        }
+        description, stack = details[name]
+        # A fixed, readable card size lets GitHub's inline images wrap into a grid.
+        # The transparent bottom gutter gives wrapped rows breathing room.
+        body = f'''<rect x="1" y="1" width="278" height="190" rx="14" fill="{PANEL}" stroke="#30363D"/>
+<path d="M16 1H264" stroke="{accent}" stroke-width="2"/>
+{text(18,25,label,10,accent,600)}{text(243,26,number,12,MUTED,600)}
+{text(18,58,title,20,TEXT,700)}
+{text(18,88,description[0],13)}{text(18,108,description[1],13)}
+<path d="M18 129H262" stroke="#30363D"/>
+{text(18,153,stack[0],12,accent)}{text(18,174,stack[1],12,MUTED)}'''
+        write(f"project-{name}-compact.svg", svg(280, 208, f"{title}. {line1} {line2} {stack1}. {stack2}.", body))
 
-    for _, accent, labels in GROUPS:
+    for _, _, labels in GROUPS:
         for label in labels:
-            width = max(84, round(len(label) * 7.7 + 38))
+            width = max(96, round(len(label) * 7.7 + 51))
+            mark = icon_markup(ICONS[label])
+            if label == "HTML / CSS":
+                mark = icon_markup("html5", x=5, y=8, size=16) + icon_markup("css3", x=20, y=8, size=16)
             body = f'''<rect x=".5" y=".5" width="{width-1}" height="31" rx="8" fill="{PANEL}" stroke="#30363D"/>
-<circle cx="14" cy="16" r="3" fill="{accent}"/>
-{text(25,21,label,13,TEXT,600)}'''
-            write(f"badges/{slug(label)}.svg", svg(width, 32, label, body))
+{mark}
+{text(39,21,label,13,TEXT,600)}'''
+            write(f"badges/icons/{slug(label)}.svg", svg(width, 32, label, body))
 
 
 if __name__ == "__main__":
