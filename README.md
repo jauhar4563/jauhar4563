@@ -116,8 +116,8 @@ Technologies I've worked with across personal projects and professional experien
 <img src="assets/generated/streak.svg" width="720" alt="Current contribution streak and longest streak within the displayed period. Exact figures are listed below.">
 
 <!-- ACTIVITY:START -->
-**1,742 contributions · 220 active days**  
-Current streak: **0 days** · Longest in this window: **12 days**  
+**1,744 contributions · 222 active days**  
+Current streak: **1 days** · Longest in this window: **12 days**  
 Period: 2025-10-29 to 2026-10-28 (UTC; refreshed daily).
 <!-- ACTIVITY:END -->
 
