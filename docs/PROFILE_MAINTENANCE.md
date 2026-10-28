@@ -3,6 +3,8 @@
 The README uses repository-hosted original SVGs for the header, project cards,
 technology badges, and contribution cards. It intentionally uses no custom README
 CSS. Each technology badge is a separate image so rows can wrap on small screens.
+Project cards use a fixed 280px width and flow inline: multiple columns where space
+allows, one column on phones. Avoid tables or percentage widths that shrink text.
 
 ## Editing
 

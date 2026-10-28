@@ -18,17 +18,17 @@ I build full-stack applications, backend APIs, and AI-powered integrations with 
 
 ## 01 / Selected builds
 
-<a href="https://github.com/jauhar4563/SHUFFLE-Frontend"><picture><source media="(max-width: 600px)" srcset="assets/project-shuffle-mobile.svg"><img src="assets/project-shuffle.svg" width="720" alt="SHUFFLE — social application with chat, video calls and payments. React, TypeScript, Express, MongoDB, Socket.IO, AWS S3 and Stripe."></picture></a>
+<p align="center">
+  <a href="https://github.com/jauhar4563/SHUFFLE-Frontend"><img src="assets/project-shuffle.svg" width="280" alt="SHUFFLE — social app with chat, video calls and payments. React, TypeScript, Express, MongoDB, Socket.IO and AWS S3."></a>
+  <a href="https://github.com/jauhar4563/ZenLaps"><img src="assets/project-zenlaps.svg" width="280" alt="ZenLaps — e-commerce with catalog, cart, orders and payments. Node.js, Express, MongoDB, EJS and Razorpay."></a>
+  <a href="https://github.com/jauhar4563/GitHubApiProject"><img src="assets/project-github-api.svg" width="280" alt="GitHub API Explorer — repository, follower and profile exploration. React, TypeScript, Express, PostgreSQL and Redux Toolkit."></a>
+</p>
 
-**SHUFFLE** · [Frontend](https://github.com/jauhar4563/SHUFFLE-Frontend) · [Backend](https://github.com/jauhar4563/SHUFFLE-Backend)
-
-<a href="https://github.com/jauhar4563/ZenLaps"><picture><source media="(max-width: 600px)" srcset="assets/project-zenlaps-mobile.svg"><img src="assets/project-zenlaps.svg" width="720" alt="ZenLaps — e-commerce with catalog, cart, orders and payments. Node.js, Express, MongoDB, EJS and Razorpay."></picture></a>
-
-**ZenLaps** · [Explore the repository](https://github.com/jauhar4563/ZenLaps)
-
-<a href="https://github.com/jauhar4563/GitHubApiProject"><picture><source media="(max-width: 600px)" srcset="assets/project-github-api-mobile.svg"><img src="assets/project-github-api.svg" width="720" alt="GitHub API Explorer — repository, follower and profile exploration. React, TypeScript, Express, PostgreSQL and Redux Toolkit."></picture></a>
-
-**GitHub API Explorer** · [Explore the repository](https://github.com/jauhar4563/GitHubApiProject)
+<p align="center">
+  SHUFFLE: <a href="https://github.com/jauhar4563/SHUFFLE-Frontend">Frontend</a> / <a href="https://github.com/jauhar4563/SHUFFLE-Backend">Backend</a> &nbsp; · &nbsp;
+  <a href="https://github.com/jauhar4563/ZenLaps">ZenLaps</a> &nbsp; · &nbsp;
+  <a href="https://github.com/jauhar4563/GitHubApiProject">GitHub API Explorer</a>
+</p>
 
 ## 02 / My engineering toolkit
 

@@ -1,7 +1,6 @@
 """Build original profile artwork. Run from any directory; no dependencies."""
 from html import escape
 from pathlib import Path
-from textwrap import wrap
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
@@ -59,25 +58,25 @@ def build():
         ("github-api", "03", "GitHub API Explorer", "APIS / DATA", "A GitHub API project for exploring", "repositories, followers and user profiles.", "React · TypeScript · Express", "PostgreSQL · Redux Toolkit", CYAN),
     ]
     for name, number, title, label, line1, line2, stack1, stack2, accent in projects:
-        body = f'''<rect x="1" y="1" width="718" height="258" rx="18" fill="{PANEL}" stroke="#30363D"/>
-<path d="M20 1H700" stroke="{accent}" stroke-width="2"/>
-{text(28,35,label,15,accent,600)}{text(658,40,number,25,MUTED,600)}
-{text(28,82,title,34,TEXT,700)}
-{text(28,124,line1,23)}{text(28,154,line2,23)}
-<path d="M28 177H692" stroke="#30363D"/>
-{text(28,208,stack1,21,accent)}{text(28,238,stack2,20,MUTED)}'''
-        write(f"project-{name}.svg", svg(720, 260, f"{title}. {line1} {line2} {stack1}. {stack2}.", body))
-        description = wrap(line1 + " " + line2, width=33)
-        stack = wrap(stack1 + " · " + stack2, width=34)
-        divider = 108 + len(description) * 28
-        height = divider + 30 + len(stack) * 25
-        mobile = f'<rect x="1" y="1" width="418" height="{height-2}" rx="18" fill="{PANEL}" stroke="#30363D"/>'
-        mobile += f'<path d="M20 1H400" stroke="{accent}" stroke-width="2"/>'
-        mobile += text(24, 32, label, 14, accent, 600) + text(24, 76, title, 30, TEXT, 700)
-        mobile += ''.join(text(24, 114 + i*28, line, 21) for i, line in enumerate(description))
-        mobile += f'<path d="M24 {divider}H396" stroke="#30363D"/>'
-        mobile += ''.join(text(24, divider+30+i*25, line, 18, accent) for i, line in enumerate(stack))
-        write(f"project-{name}-mobile.svg", svg(420, height, title + ". " + line1 + " " + line2, mobile))
+        details = {
+            "shuffle": (["Social app with chat, video", "calls and payment integrations."],
+                        ["React · TypeScript · Express", "MongoDB · Socket.IO · AWS S3"]),
+            "zenlaps": (["E-commerce with a catalog,", "cart, orders and payments."],
+                        ["Node.js · Express · MongoDB", "EJS · Razorpay"]),
+            "github-api": (["Explore GitHub repositories,", "followers and user profiles."],
+                           ["React · TypeScript · Express", "PostgreSQL · Redux Toolkit"]),
+        }
+        description, stack = details[name]
+        # A fixed, readable card size lets GitHub's inline images wrap into a grid.
+        # The transparent bottom gutter gives wrapped rows breathing room.
+        body = f'''<rect x="1" y="1" width="278" height="190" rx="14" fill="{PANEL}" stroke="#30363D"/>
+<path d="M16 1H264" stroke="{accent}" stroke-width="2"/>
+{text(18,25,label,10,accent,600)}{text(243,26,number,12,MUTED,600)}
+{text(18,58,title,20,TEXT,700)}
+{text(18,88,description[0],13)}{text(18,108,description[1],13)}
+<path d="M18 129H262" stroke="#30363D"/>
+{text(18,153,stack[0],12,accent)}{text(18,174,stack[1],12,MUTED)}'''
+        write(f"project-{name}.svg", svg(280, 208, f"{title}. {line1} {line2} {stack1}. {stack2}.", body))
 
     for _, accent, labels in GROUPS:
         for label in labels:
