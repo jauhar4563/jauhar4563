@@ -116,9 +116,9 @@ Technologies I've worked with across personal projects and professional experien
 <picture><source media="(max-width: 600px)" srcset="assets/generated/streak-mobile.svg"><img src="assets/generated/streak.svg" width="720" alt="Current contribution streak and longest streak within the displayed period. Exact figures are listed below."></picture>
 
 <!-- ACTIVITY:START -->
-**1,730 contributions · 218 active days**<br>
+**1,698 contributions · 217 active days**<br>
 Current streak: **0 days** · Longest in this window: **12 days**<br>
-Period: 2025-11-14 to 2026-11-13 (UTC; refreshed daily).
+Period: 2025-11-15 to 2026-11-14 (UTC; refreshed daily).
 <!-- ACTIVITY:END -->
 
 Counts include anonymized private activity that GitHub makes visible. Streaks use UTC days; today's contributions can still arrive. The current streak includes a run ending yesterday and is limited to the displayed window.
