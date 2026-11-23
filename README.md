@@ -118,7 +118,7 @@ Technologies I've worked with across personal projects and professional experien
 <!-- ACTIVITY:START -->
 **1,674 contributions · 212 active days**<br>
 Current streak: **0 days** · Longest in this window: **12 days**<br>
-Period: 2025-11-23 to 2026-11-22 (UTC; refreshed daily).
+Period: 2025-11-24 to 2026-11-23 (UTC; refreshed daily).
 <!-- ACTIVITY:END -->
 
 Counts include anonymized private activity that GitHub makes visible. Streaks use UTC days; today's contributions can still arrive. The current streak includes a run ending yesterday and is limited to the displayed window.
